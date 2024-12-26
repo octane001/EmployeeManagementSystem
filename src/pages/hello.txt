@@ -1,0 +1,18 @@
+const fs = require('fs');
+
+const poem = `
+Roses are red,
+Violets are blue,
+JavaScript is great,
+And so are you.
+
+Coding is fun,
+With logic and might,
+Let's write some code,
+And debug all night.
+`;
+
+fs.writeFile('hello.txt', poem, (err) => {
+    if (err) throw err;
+    console.log('Poem has been written to hello.txt');
+});

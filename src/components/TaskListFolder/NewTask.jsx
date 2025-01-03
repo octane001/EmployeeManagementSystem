@@ -8,7 +8,7 @@ const NewTask = ({ data }) => {
     <h3 className="bg-red-600 text-sm px-3 py-1 rounded">{data.category}</h3>
     <h4 className="text-sm font-semibold">{data.taskDate}</h4>
   </div>
-  <h2 className="mt-5 text-3xl font-semibold">{data.taskTitle} Hello</h2>
+  <h2 className="mt-5 text-3xl font-semibold">{data.taskTitle}</h2>
   <p className="text-base mt-2">{data.taskDescription}</p>
 
   {/* Spacer to push button to the bottom */}
